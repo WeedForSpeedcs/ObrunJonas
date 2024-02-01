@@ -308,40 +308,59 @@ button {
 }
 
 
-    .container {
-        width: 90%;
-        margin: 20px auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    .experiences, .competences {
-        flex-basis: 50%;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .experiences h2, .competences h2 {
-        font-size: 24px;
-        margin-top: 0;
-    }
-    .experiences ul, .competences ul {
-        padding: 0;
-        list-style-type: none;
-    }
-    .experiences li, .competences li {
-        margin-bottom: 20px;
-    }
-    .competences li {
-        display: flex;
-        justify-content: space-between;
-        border-bottom: 1px solid #ccc;
-        padding-bottom: 10px;
-    }
-    .competences li:last-child {
-        border-bottom: none;
-        padding-bottom: 0;
-    }
+.experiences {
+    border-right: 2px solid #ccc;
+    padding-right: 20px; /* Pour éviter que le texte ne touche la bordure */
+}
+
+/* CSS existant */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* Ajout du style pour chaque expérience */
+.experience {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.experience h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.experience-item {
+    margin-bottom: 40px;
+}
+
+.experience-item strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.experience-item ul li {
+    margin-bottom: 10px;
+}
+
+.experience-item ul li:last-child {
+    margin-bottom: 0;
+}
+
+.experience ul li::before {
+    content: "\f005"; /* Code de l'icône FontAwesome */
+    font-family: "Font Awesome 5 Free"; /* Nom de la police */
+    margin-right: 5px;
+    color: #000000; /* Couleur de l'icône */
+}
+
 
 
 
