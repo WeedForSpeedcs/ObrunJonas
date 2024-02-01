@@ -273,7 +273,7 @@ button {
 	-webkit-font-smoothing: antialiased;
 }
 
-#experience img {
+#expertise img {
     width: 90px; /* Ajustez la largeur selon vos besoins */
     height: 90px; /* Ajustez la hauteur selon vos besoins */
     margin-right: 20px; /* Espace entre chaque image */
@@ -281,16 +281,69 @@ button {
     /*border: 2px solid #ffffff;*/ /* Bordure blanche */
     /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/ /* Ombre */
 }
-#experience {
+#expertise {
     background-color: #333333; /* Couleur de fond */
     padding: 100px 0; /* Espacement intérieur */
     text-align: center; /* Centrer le contenu */
     color: #ffffff; /* Couleur du texte */
 }
 
-.experience-content {
+.expertise-content {
 	margin-bottom: 50px; /* Ajoute une marge en bas de chaque div */
 }
+
+.hobbies-list li {
+	text-align: center; /* Aligne le texte à droite */
+	list-style: none;
+	margin-left: 0;
+}
+
+.hobbies-list li strong {
+	font-family: "poppins-bold", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .experiences, .competences {
+        flex-basis: 50%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .experiences h2, .competences h2 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .experiences ul, .competences ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    .experiences li, .competences li {
+        margin-bottom: 20px;
+    }
+    .competences li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    .competences li:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+
 
 /**
  * Media - (_basic.scss)
