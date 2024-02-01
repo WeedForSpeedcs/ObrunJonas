@@ -4,9 +4,13 @@ Bienvenue sur mon portfolio ! Ce projet présente mes expériences, compétences
 
 ## Lien vers le Portfolio
 
-Vous pouvez consulter mon portfolio en suivant ce lien : 
+Vous pouvez consulter mon portfolio en suivant ce lien : https://weedforspeedcs.github.io/ObrunJonas/
 
 ## Crédits
 
 Template :
+
+https://styleshout.com/
+
+
 
